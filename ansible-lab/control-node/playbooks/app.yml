@@ -71,7 +71,7 @@
         name: notes
         state: restarted
   roles:
-      - configuracao-default-SO
+      - configuracao-default-so
   handlers:
     - name: reload app
       systemd:
